@@ -1,0 +1,23 @@
+body{
+    background-color: #55632d;
+}
+h1{
+    color:#000000;
+}
+input{
+    background-color: #BBB6A5;
+    
+}
+ul li{
+    color:rgb(240, 234, 234);
+    padding-left: 20px;
+}
+.delete{
+    border-radius: 30%;
+}
+.car{
+    background-color: rgb(50, 50, 105);
+    margin:10px;
+    border:2px solid black;
+
+}
