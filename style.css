@@ -1,5 +1,5 @@
 body{
-    background-color: #55632d;
+    background-color: #ecf32d;
 }
 h1{
     color:#000000;
@@ -20,4 +20,13 @@ ul li{
     margin:10px;
     border:2px solid black;
 
+}
+.car li {
+  display: flex;              /* make li a flex container */
+  justify-content: space-between; /* push content apart */
+  align-items: center;        /* vertically align items */
+}
+
+.car .delete {
+  margin-left: auto;          /* ensures button stays at the end */
 }
