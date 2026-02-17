@@ -9,7 +9,7 @@ btn.addEventListener("click",function(){
         li.innerText=inp.value;
     let delBtn=document.createElement("button");
     delBtn.classList.add("delete");
-    delBtn.innerText="delete";
+    delBtn.innerHTML="&#10006;";
     
 
     li.appendChild(delBtn);
