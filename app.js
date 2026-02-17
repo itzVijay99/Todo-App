@@ -4,7 +4,9 @@ let ul=document.querySelector("ul");
 
 btn.addEventListener("click",function(){
     let li=document.createElement("li");
-    li.innerText=inp.value;
+    if(inp.value!=''){
+
+        li.innerText=inp.value;
     let delBtn=document.createElement("button");
     delBtn.classList.add("delete");
     delBtn.innerText="delete";
@@ -19,6 +21,9 @@ btn.addEventListener("click",function(){
     div.appendChild(li);
     ul.appendChild(div);
     inp.value='';
+
+    }
+    
 
 
 

@@ -1,5 +1,6 @@
 body{
-    background-color: #ecf32d;
+    
+    background-image: url("todo.avif");
 }
 h1{
     color:#000000;
@@ -19,14 +20,35 @@ ul li{
     background-color: rgb(50, 50, 105);
     margin:10px;
     border:2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(162, 113, 113);
 
 }
 .car li {
   display: flex;              /* make li a flex container */
   justify-content: space-between; /* push content apart */
-  align-items: center;        /* vertically align items */
+  align-items: center;      
+    /* vertically align items */
+    padding:10px;
+    margin-bottom: 10px;
+    
 }
 
 .car .delete {
   margin-left: auto;          /* ensures button stays at the end */
+}
+.car:hover{
+    box-shadow: 2px 2px rgb(240, 234, 234);
+    transition-duration: 2s;
+}
+.container{
+    background-color: rgba(250, 235, 215, 0.532);
+    margin-top: 20px;
+}
+.container:hover{
+    box-shadow:4px 4px 8px #782121;
+    transition-duration:  2s; 
+}
+ul{
+    padding: 10px;
 }
