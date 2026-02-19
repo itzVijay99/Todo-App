@@ -45,6 +45,7 @@ ul li{
 .container{
     background-color: rgba(250, 235, 215, 0.532);
     margin-top: 20px;
+    border-radius: 10px;
 }
 .container:hover{
     box-shadow:4px 4px 8px #782121;
