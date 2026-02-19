@@ -17,7 +17,7 @@ ul li{
     border-radius: 30%;
 }
 .car{
-    background-color: rgb(50, 50, 105);
+    background-color: rgba(50, 50, 105,0.6);
     margin:10px;
     border:2px solid black;
     border-radius: 10px;
@@ -41,6 +41,7 @@ ul li{
 .car:hover{
     box-shadow: 2px 2px rgb(240, 234, 234);
     transition-duration: 2s;
+    transform: scale(1.02);
 }
 .container{
     background-color: rgba(250, 235, 215, 0.532);
